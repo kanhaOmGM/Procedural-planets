@@ -2,9 +2,9 @@
 
 A project to express my curiosity for physics built during my preparation for JEE, most of the formulas and methods used for this project are the ones I have come across during my end years of highschool such as Stefan-boltzman law, Kepler's orbital laws, Newton laws of gravity and calculus in one variable.
 
-This project simulates a unique procedural stellar system as per user-input using N-body gravitational simulator built in Python and [Taichi](https://www.taichi-lang.org/).
+This project simulates a unique procedural stellar system as per user-input using N-body gravitational simulator built in Python and [Taichi](https://www.taichi-lang.org/). 
 
-Given a single input parameter—the stellar mass $M**$ in solar masses ($M_\odot$)—the engine creates a complete stellar system using stellar homology, blackbody radiation laws, and protoplanetary disk condensation zones, and integrates all mutual gravitational interactions in real time.
+Given a single input parameter, the stellar mass $M**$ in solar masses ($M_\odot$)—the engine creates a complete stellar system using stellar homology, blackbody radiation laws, and protoplanetary disk condensation zones, and integrates all mutual gravitational interactions in real time.
 
 ---
 
