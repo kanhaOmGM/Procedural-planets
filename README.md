@@ -11,7 +11,7 @@ Given a single input parameter—the stellar mass $M**$ in solar masses ($M_\odo
 ## Table of Contents
 
 1.  [Physical Units & Dimensional Scaling](#1-physical-units--dimensional-scaling)
-2.  [Stellar Astrophysics & Homology Relations](#2-stellar-astrophysics--homology-relations)
+2.  [Homologous relations in Astrophysics](#2-stellar-astrophysics--homology-relations)
 3.  [Planetary Condensation & Non-Crossing Spacing](#3-planetary-condensation--non-crossing-spacing)
 4.  [Symplectic Leapfrog N-Body Physics Engine](#4-symplectic-leapfrog-n-body-physics-engine)
 5.  [Colorimetry & Celestial Background (`real_sky.py`)](#5-colorimetry--celestial-background-realskypy)
@@ -48,7 +48,7 @@ Because $G = 4\pi^2$ is exact in these units:
 
 ---
 
-## 2. Stellar Astrophysics & Homology Relations
+## 2. Homologous relations in Astrophysics
 
 Given only the stellar mass $M$ (in $M_\odot$), the star's fundamental physical properties are derived using standard main-sequence homology scaling relations:
 
