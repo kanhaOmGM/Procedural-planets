@@ -1,18 +1,3 @@
-"""
-real_sky.py — STEP 1: the real night sky, from the Yale Bright Star Catalogue.
-
-Parses bsc5_stars.csv (ra_deg, dec_deg, vmag, b_v[, dist_pc]), converts each
-star's Right Ascension / Declination into a 3D unit direction vector, and
-turns its B-V colour index into an actual RGB colour by:
-
-    1. B-V  ->  Kelvin temperature      (Ballesteros' relation)
-    2. Kelvin  ->  RGB                  (sample the Planck blackbody curve
-                                          at three visible wavelengths)
-
-Apparent magnitude drives both brightness and on-screen point size: five
-magnitudes is defined as a factor of 100 in flux, so flux = 10^(-0.4*vmag).
-"""
-
 import math
 import os
 
@@ -23,9 +8,7 @@ C_LIGHT = 2.99792458e8
 K_BOLTZ = 1.380649e-23
 OBLIQUITY = math.radians(23.4392911)     # J2000 obliquity: equatorial -> ecliptic
 
-# The three wavelengths sampled off the continuous Planck curve to build an
-# RGB colour. This is a simplification of full CIE colour-matching — noted in
-# the README approximations.
+
 LAM_RGB = np.array([600e-9, 550e-9, 450e-9])
 
 
