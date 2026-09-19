@@ -4,7 +4,7 @@ A project to express my curiosity for physics built during my preparation for JE
 
 This project simulates a unique procedural stellar system as per user-input using N-body gravitational simulator built in Python and [Taichi](https://www.taichi-lang.org/). 
 
-Given a single input parameter, the stellar mass $M**$ in solar masses ($M_\odot$)—the engine creates a complete stellar system using stellar homology, blackbody radiation laws, and protoplanetary disk condensation zones, and integrates all mutual gravitational interactions in real time.
+Given a single input parameter, the stellar mass $M**$ in solar masses ($M_\odot$), the engine creates a complete stellar system using stellar homology, blackbody radiation laws, and protoplanetary disk condensation zones, and integrates all mutual gravitational interactions in real time.
 
 ---
 
