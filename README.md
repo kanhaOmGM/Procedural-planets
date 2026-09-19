@@ -2,16 +2,16 @@
 
 A project to express my curiosity for physics built during my preparation for JEE, most of the formulas and methods used for this project are the ones I have come across during my end years of highschool such as Stefan-boltzman law, Kepler's orbital laws, Newton laws of gravity and calculus in one variable.
 
-This project simulates a unique procedural stellar system as per user-input using N-body gravitational simulator built in Python and [Taichi](https://www.taichi-lang.org/).
+This project simulates a unique procedural stellar system as per user-input using N-body gravitational simulator built in Python and [Taichi](https://www.taichi-lang.org/). 
 
-Given a single input parameter—the stellar mass $M**$ in solar masses ($M_\odot$)—the engine creates a complete stellar system using stellar homology, blackbody radiation laws, and protoplanetary disk condensation zones, and integrates all mutual gravitational interactions in real time.
+Given a single input parameter, the stellar mass $M**$ in solar masses ($M_\odot$)—the engine creates a complete stellar system using stellar homology, blackbody radiation laws, and protoplanetary disk condensation zones, and integrates all mutual gravitational interactions in real time.
 
 ---
 
 ## Table of Contents
 
 1.  [Physical Units & Dimensional Scaling](#1-physical-units--dimensional-scaling)
-2.  [Stellar Astrophysics & Homology Relations](#2-stellar-astrophysics--homology-relations)
+2.  [Homologous relations in Astrophysics](#2-stellar-astrophysics--homology-relations)
 3.  [Planetary Condensation & Non-Crossing Spacing](#3-planetary-condensation--non-crossing-spacing)
 4.  [Symplectic Leapfrog N-Body Physics Engine](#4-symplectic-leapfrog-n-body-physics-engine)
 5.  [Colorimetry & Celestial Background (`real_sky.py`)](#5-colorimetry--celestial-background-realskypy)
@@ -48,7 +48,7 @@ Because $G = 4\pi^2$ is exact in these units:
 
 ---
 
-## 2. Stellar Astrophysics & Homology Relations
+## 2. Homologous relations in Astrophysics
 
 Given only the stellar mass $M$ (in $M_\odot$), the star's fundamental physical properties are derived using standard main-sequence homology scaling relations:
 
