@@ -1,19 +1,4 @@
 """
-test_physics.py — STEP 4: verifiable physics self-test.
-
-Two independent checks on the symplectic (kick-drift-kick leapfrog) Taichi
-integrator in starsystem.py, using a 1 Msun star and a massless test planet
-on a 1 AU circular orbit (units: AU, Msun, yr, so G = 4*pi^2 and the orbital
-period is exactly 1.0 year):
-
-  1. Energy conservation — a symplectic integrator's energy should NOT drift
-     secularly the way forward-Euler's does. After 10,000 steps the relative
-     change in specific orbital energy must be under 1e-4.
-
-  2. Kepler's third law — the time to complete one full revolution (measured
-     as the return to the starting phase, i.e. periapsis-to-periapsis for
-     this circular case) must match T = a^1.5 = 1.0 year.
-
 Run:  python test_physics.py
 """
 
