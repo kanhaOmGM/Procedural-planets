@@ -1,11 +1,4 @@
 """
-starsystem.py — procedural star-system generator + Taichi symplectic N-body sim.
-
-Units: AU, solar masses, years  ->  G = 4*pi^2 exactly, so a 1 AU circular
-orbit around a 1 Msun star has a period of exactly 1.0 year. This is what
-lets test_physics.py check Kepler's third law with nothing fuzzier than
-floating-point error.
-
 Run:      python starsystem.py --mass 1.4          (needs: pip install taichi)
 Headless: python starsystem.py --mass 1.4 --bench out.png
 Verify:   python test_physics.py
